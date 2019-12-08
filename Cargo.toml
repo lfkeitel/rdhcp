@@ -1,0 +1,5 @@
+[package]
+name = "dhcp_parser"
+version = "0.1.0"
+authors = ["Lee Keitel <lee@keitel.xyz>"]
+edition = "2018"
