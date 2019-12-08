@@ -25,7 +25,7 @@ impl Socket for UdpSocket {
 }
 
 pub fn run_server(handler: &mut impl PacketHandler, workers: u16) -> io::Result<()> {
-    let socket = UdpSocket::bind("0.0.0.0:69")?;
+    let socket = UdpSocket::bind("0.0.0.0:67")?;
     socket.set_broadcast(true)?;
     run_server_with_socket(&socket, handler, workers)
 }
